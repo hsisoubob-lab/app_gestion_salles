@@ -43,3 +43,7 @@ for salle in salles:
 
     service.supprimer_salle("B202")
     print("Salle supprimée")
+    from views.view_salle import ViewSalle
+
+    app = ViewSalle()
+    app.mainloop()
